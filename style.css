@@ -1,93 +1,9 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #0a192f; /* Dark Navy Blue */
-    display: flex;
-    justify-content: center;
-    align-items: flex-end; /* Moves chat to the bottom */
+body{
+    background-color: #142059;
     height: 100vh;
-    margin: 0;
-    padding: 20px;
+    width: 100vw;
 }
-
-.chat-container {
-    width: 400px;
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-}
-
-.chat-header {
-    background: #007bff;
+.hello {
     color: white;
-    padding: 15px;
-    text-align: center;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.chat-box {
-    flex-grow: 1;
-    padding: 15px;
-    overflow-y: auto;
-    max-height: 300px;
-}
-
-.chat-message {
-    padding: 10px;
-    border-radius: 8px;
-    margin-bottom: 10px;
-    max-width: 80%;
-}
-
-.bot {
-    background: #e3f2fd;
-    align-self: flex-start;
-}
-
-.user {
-    background: #007bff;
-    color: white;
-    align-self: flex-end;
-}
-
-.chat-input-container {
-    display: flex;
-    padding: 10px;
-    border-top: 1px solid #ddd;
-    gap: 10px;
-}
-
-.chat-input-container input[type="text"] {
-    flex: 1;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    outline: none;
-}
-
-.chat-input-container input[type="file"] {
-    border: none;
-}
-
-.chat-input-container button {
-    padding: 10px;
-    background: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.chat-input-container button:hover {
-    background: #0056b3;
-}
-
-#imagePreview img {
-    max-width: 100px;
-    margin-top: 10px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
